@@ -11,5 +11,21 @@ require 'rails_helper'
 #   end
 # end
 RSpec.describe MessagesHelper, :type => :helper do
-  pending "add some examples to (or delete) #{__FILE__}"
+    describe "#error_meesages_for" do
+      it "returns a proper error message" do
+        skip("Add specs")
+      end
+    end
+
+    describe "#time_left" do
+      it "returns a readable string" do
+        skip("Add specs")
+      end
+    end
+
+    describe "#FormBuilderAdditions" do
+      it "does a thing" do
+        skip("Add specs")
+      end
+    end
 end
